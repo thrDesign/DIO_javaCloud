@@ -26,7 +26,7 @@ public class Conta {
         Conta conta = new Conta();
 
         System.out.println("Sua conta foi criada com sucesso! \n");
-        System.out.println("Sr(a) " + nome + " os dados da sua conta são: Agencia: " + conta.agencia + " numero: " + conta.conta + " \n Seu saldo já está disponível para saque!" );
+        System.out.println("Sr(a) " + nome + " os dados da sua conta são: Agencia: " + conta.agencia + " numero: " + conta.conta + " \n Seu saldo de R$ " + saldoInicial + " já está disponível para saque!" );
 
     }
 
